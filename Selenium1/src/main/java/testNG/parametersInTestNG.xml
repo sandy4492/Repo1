@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="parametesInTestNG">
+
+	<test name="TestNG">
+	<parameter name="data" value="sandeep"></parameter>
+	<parameter name="data1" value="kumar"></parameter>
+
+		<classes>
+
+			<class name="testNG.ParameterInTestNG">
+
+
+
+
+			</class>
+
+
+
+
+		</classes>
+
+
+
+
+	</test>
+
+
+
+</suite>
